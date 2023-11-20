@@ -1,0 +1,48 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: black;  */
+}
+
+main{
+    width: 100%;
+}
+
+.container{
+    padding: 1rem;
+}
+
+textarea{
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: tan;
+    width: 500px;
+    height: 200px;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-transform: uppercase;
+
+}
+
+
+
+span{
+    position: absolute;
+    top: 0;
+    font-size: 2rem;
+    animation: move 3s linear;
+    z-index: -1;
+}
+
+@keyframes move {
+     0%{top: 0;}
+     100%{top: 100%;}
+}
